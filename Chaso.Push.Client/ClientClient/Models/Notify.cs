@@ -24,12 +24,19 @@ namespace Chaso.Push.Client.Models
         /// <summary>
         /// Initializes a new instance of the Notify class.
         /// </summary>
-        public Notify(string channel = default(string), string eventName = default(string), object data = default(object))
+        public Notify(string origin = default(string), string channel = default(string), string eventName = default(string), object data = default(object))
         {
+            Origin = origin;
             Channel = channel;
             EventName = eventName;
             Data = data;
         }
+
+        /// <summary>
+        /// Origin of interation on channel
+        /// </summary>
+        [JsonProperty(PropertyName = "Origin")]
+        public string Origin { get; set; }
 
         /// <summary>
         /// Nome of the Channel to interact
