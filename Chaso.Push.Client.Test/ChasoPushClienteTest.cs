@@ -11,7 +11,7 @@ namespace Chaso.Push.Client.Test
         {
             string returnedSend = string.Empty;
             var url = "http://localhost:4478";
-            using (IChasoPushClient pushClient = new ChasoPushClient(url))
+            using (IChasoPushClient pushClient = new ChasoPushClient("Test",url))
             {
                 returnedSend = pushClient.Send("SourceIntegration", "EventIntegration"," {\"Data\" : {\"Code\":\"CodeSomeThing\" } }");
             }

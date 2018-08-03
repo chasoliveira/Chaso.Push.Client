@@ -225,7 +225,8 @@ namespace Chaso.Push.Client
         private void Initialize()
         {
             this.PushOperations = new PushOperations(this);
-            this.BaseUri = new Uri("http://gppdev:4478");
+            //TODO: Change to your Chaso.Push.Server url
+            this.BaseUri = new Uri("http://localhost:4478");
             SerializationSettings = new JsonSerializerSettings
             {
                 Formatting = Formatting.Indented,
