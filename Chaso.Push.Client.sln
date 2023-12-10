@@ -1,11 +1,11 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chaso.Push.Client", "Chaso.Push.Client\Chaso.Push.Client.csproj", "{D00C5BD9-7B95-48C3-8A56-47CC9880226C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chaso.Push.Client", "Chaso.Push.Client\Chaso.Push.Client.csproj", "{D00C5BD9-7B95-48C3-8A56-47CC9880226C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chaso.Push.Client.Test", "Chaso.Push.Client.Test\Chaso.Push.Client.Test.csproj", "{02FD8DDE-4754-45F4-982A-EF7ABBB75E80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chaso.Push.Client.Test", "Chaso.Push.Client.Test\Chaso.Push.Client.Test.csproj", "{02FD8DDE-4754-45F4-982A-EF7ABBB75E80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
